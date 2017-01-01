@@ -1,21 +1,8 @@
-.parallax-group .container {
-    padding: 4% 2%;
-  
-}
+
 
 .jumbotron{
   background-color: transparent;
 }
-
-#container3 {
-  /*background-color: red;*/
-  height:100%;
-    overflow: hidden;
-    display: table;
-}
-
-
-
 
 .nav-pills {
   font-size: 1.9em;
@@ -34,32 +21,21 @@
   padding-right: 100px;
 }
 
-.outer-container {
-  color: #fff;
-  background: #18bc9c;
-  margin-bottom: 50px;
-}
 
-
-
-.content-wrapper {
-  background-color: white;
-  position: relative;
-  width: 100%;
-  margin-top: 50px;
-}
-
-.third-container {
-  background-color: blue;
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-}
 
 .content-wrapper .container {
   width: 100%;
 }
 
+.col-xs-4{
+  border-width: 1px;
+  border-style: solid;
+  
+}
+
+.about-me{
+  margin-bottom: 0px;
+}
 
 /* Typing Animation*/
 
@@ -167,7 +143,13 @@ span {
 }
 
 
+#resize{
+  margin-top: 8%;
+}
 
+#target1{
+  padding-left: 4%;
+}
 
 #welp {
   display: block;
@@ -188,18 +170,16 @@ span {
   font-weight: 300;
 }
 
+
 #group1 {
-    z-index: 3; /* slide over group 2 */
-}
-#group1 .parallax-layer-base {
     background: #52b9e9;
-}
-#group2 {
-    z-index: 5; /* slide under groups 1 and 3 */
+    padding: 4% 2%;
+    align-content: center;
+    text-align: center;
 }
 
 #group3 {
-    z-index: 4; /* slide over group 2 and 4 */
+
   color: black;
 }
 #group3 .parallax-layer-base {
@@ -213,7 +193,3 @@ span {
   position: fixed;
 }
 
-section {
-  padding: 100px 0;
-  width: 100%;
-}

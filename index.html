@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 <nav class="navbar nav-pills navbar-fixed-top">
@@ -31,40 +34,34 @@
       </ul>
 
     </div>
-</nav> 
+</nav>
 
-
-  <div class="parallax-group" id="group1">
-    <div class="parallax-layer parallax-layer-base">
-      <div class="container">
-        <div class "jumbotron">
+  <section class="" id="group1">
+    
+      
+        <div class="jumbotron">
           <img class="img-responsive" id="welp" src="http://8bitdecals.com/wp-content/uploads/2012/06/j-castaneda.tumblr-8.jpeg" alt="">
-          <div class="intro-text">
+          
             <h3 id="name">Banhawy's Code Palace</h3>
             <hr class="star-light">
             <p id="sub-name">Welcome to my showcase hub</p>
             <p id="sub-name">Scroll down to see more!</p>
-                    
-         
-            <a target="_blank" class="btn btn-large btn-primary paddingBTN " href="https://www.freecodecamp.com/banhawy"><i class="fa fa-free-code-camp fa-lg" aria-hidden="true"></i> FreeCodeCamp</a>
-            <a target="_blank" class="btn btn-large btn-primary paddingBTN" href="https://www.linkedin.com/in/adham-el-banhawy-36599988"><i class="fa fa-linkedin fa-lg"></i> Linkedin</a>
-            <a target="_blank" class="btn btn-large btn-primary paddingBTN " href="https://github.com/banhawy"><i class="fa fa-github fa-lg"></i> Github</a>
-          
-        
-            
-          </div>
-          
         </div>
-      </div>
-    </div>
-  </div>
+
+        <div>
+              <a target="_blank" class="btn btn-large btn-primary paddingBTN " href="https://www.freecodecamp.com/banhawy"><i class="fa fa-free-code-camp fa-lg" aria-hidden="true"></i> FreeCodeCamp</a>
+              <a target="_blank" class="btn btn-large btn-primary paddingBTN" href="https://www.linkedin.com/in/adham-el-banhawy-36599988"><i class="fa fa-linkedin fa-lg"></i>    Linkedin</a>
+              <a target="_blank" class="btn btn-large btn-primary paddingBTN " href="https://github.com/banhawy"><i class="fa fa-github fa-lg"></i> Github</a>
+            </div>            
+  </section>
 
 
-  <div class="content-wrapper" id="group2">
-    <div class="container">
+  <section class="well about-me" id="">
+    <div class="container-fluid ">
+    <h2 class="text-center">About Me</h2>
       <div class="row">
         <div class="well col-md-6">
-          <h2 class="text-center">About Me</h2>
+          
           <div class="jumbotron about">
             <p>Hello World!</p>
             <p>...Hello, World?</p>
@@ -79,41 +76,67 @@
         </div>
 
         <div class=" col-md-6 animated" id="target1">
-          <img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/Code%20thinker.png">
+          <img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/Code%20thinker.png" id="resize">
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!--Projects Timeline-->
+<section>
+  
+</section>
+
+<div class="container-fluid">
+  <h1>Projects</h1>
+  <div class="row">
+    <div class="col-xs-4">
+      <img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/portfolio-snapshot1.png">
+      <button data-toggle="collapse" data-target="#demo">Collapsible</button>
+<div id="demo" class="collapse">
+Lorem ipsum dolor text....
+</div>
+    </div>
+    <div class="col-xs-4">
+      <img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/celeb-profile1.png">
+    </div>
+    <div class="col-xs-4">
+      <img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/%60quote-generator3.png">
+    </div>
+  </div>
+</div>
 
 
-
-
-
-  <div id="group4" class="container">
-    <div class="jumbotron">
+  <section id="group1" class="">
+    <div class="container-fluid ">
       
-        <div class="contact">
+        <div class="jumbotron">
 
+          <h2>Contact Me</h2>
+          <p>Got any questions, comments, requests? Need web-developers or a SCRUM Master on your team? Shoot me an email or connect with me on social media!</p>
 
-          <h2>Contact Me|</h2>
-          <h2><a href="mailto:the.benhawy@gmail.com"> The.Benhawy@Gmail.Com</a> </h2>
+          <div class="btn-group">
+  <a class="btn btn-default" href="https://www.freecodecamp.com/banhawy" target="_blank">
+    <i class="fa fa-free-code-camp" title="FCC"></i>
+  </a>
+  <a class="btn btn-default" href="mailto:the.benhawy@gmail.com" target="_blank">
+    <i class="fa fa-envelope" title="email"></i>
+  </a>
+  <a class="btn btn-default" href="https://www.linkedin.com/in/adham-el-banhawy-36599988" target="_blank">
+    <i class="fa fa-linkedin" title="Linkedin"></i>
+  </a>
+  <a class="btn btn-default" href="https://github.com/banhawy" target="_blank">
+    <i class="fa fa-github" title="Github"></i>
+  </a>
+</div>
 
         
 
-        <div class="links">
-         
-            <a target="_blank" class="btn btn-large btn-primary paddingBTN " href="https://www.freecodecamp.com/banhawy"><i class="fa fa-free-code-camp fa-lg" aria-hidden="true"></i> FreeCodeCamp</a>
-            <a target="_blank" class="btn btn-large btn-primary paddingBTN" href="https://www.linkedin.com/in/adham-el-banhawy-36599988"><i class="fa fa-linkedin fa-lg"></i> Linkedin</a>
-            <a target="_blank" class="btn btn-large btn-primary paddingBTN " href="https://github.com/banhawy"><i class="fa fa-github fa-lg"></i> Github</a>
-          
-        </div>
-
       </div>
     </div>
 
-  </div>
+  </section>
 
 
-</body></html>
+</body>
+</html>
