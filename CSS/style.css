@@ -1,7 +1,15 @@
 
+.panel h1{
+  text-align: center;
+}
 
 .jumbotron{
   background-color: transparent;
+}
+
+.container-fluid{
+  background-color: transparent;
+  margin-bottom: 0px;
 }
 
 .nav-pills {
@@ -21,6 +29,12 @@
   padding-right: 100px;
 }
 
+.align{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  background-color: #D7FCDA;
+}
 
 
 .content-wrapper .container {
@@ -28,8 +42,8 @@
 }
 
 .col-xs-4{
-  border-width: 1px;
-  border-style: solid;
+/*   border-width: 1px;
+border-style: solid; */
   
 }
 
@@ -142,6 +156,27 @@ span {
   background: black;
 }
 
+#projects{
+  background-image: url(http://hyunky.com/images/fd-7/empty-room-wall-design-ideas-5.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+  z-index = -1;
+}
+
+#middle{
+  padding: 2em 4em 0 4em;
+}
+
+#center{
+  align-items: center;
+  align-content: center;
+  margin: 7% 0 3% 31%;
+}
 
 #resize{
   margin-top: 8%;
@@ -178,9 +213,10 @@ span {
     text-align: center;
 }
 
-#group3 {
-
-  color: black;
+#contact {
+  background: #52b9e9;
+  align-content: center;
+  text-align: center;
 }
 #group3 .parallax-layer-base {
     background-color: white;
