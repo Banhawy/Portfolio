@@ -1,13 +1,17 @@
 body {
   position: relative;
   overflow-y: scroll;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
-#about-me{
-  padding-top: 120px;
+h1{
+  font-size: 55px;
+  font-family: 'Rock Salt', cursive;
 }
 
+.jumbotron h1 {
+    font-size: 55px;
+}
 
 footer{
   background-color: #363333;
@@ -61,10 +65,8 @@ footer{
   width: 100%;
 }
 
-.col-xs-4{
-/*   border-width: 1px;
-border-style: solid; */
-  
+.row{
+  margin-top: 4em;
 }
 
 .about-me{
@@ -176,6 +178,10 @@ span {
   background: black;
 }
 
+#about-me{
+  padding-top: 120px;
+}
+
 #portfolio{
   background-image: url(http://hyunky.com/images/fd-7/empty-room-wall-design-ideas-5.jpg);
   background-repeat: no-repeat;
@@ -216,14 +222,14 @@ span {
 #name {
   display: block;
   text-transform: uppercase;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 2em;
-  font-weight: 700;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
 }
 
 #sub-name {
-  font-size: 1.25em;
-  font-weight: 300;
+  font-size: 2.5em;
+  font-weight: 900;
+  font-family: 'Amatic SC', cursive;
 }
 
 
