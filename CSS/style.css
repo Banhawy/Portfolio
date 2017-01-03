@@ -1,7 +1,13 @@
 body {
   position: relative;
   overflow-y: scroll;
+  padding-top: 40px;
 }
+
+#about-me{
+  padding-top: 120px;
+}
+
 
 footer{
   background-color: #363333;
