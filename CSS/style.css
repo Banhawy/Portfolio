@@ -182,6 +182,35 @@ span {
   background: black;
 }
 
+.img{
+  width: 100%;
+}
+.grid {
+  
+  max-width: 100%;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  float: left;
+  width: initial;
+  height: initial;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* margin: 10px 10px 10px 10px; */
+}
+
+.grid-item--width2 { width: 40%; height: initial; }
+.grid-item--height2 { height: initial; }
+
 #about-me{
   padding-top: 120px;
 }
