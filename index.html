@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Permanent+Marker|Rock+Salt" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.js"></script>
+  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
   <script src="js/custom.js" type="text/javascript"></script>
 </head>
 <body>
@@ -67,15 +69,7 @@
         <div class="well col-md-6">
           
           <div class="jumbotron about">
-            <p>Hello World!</p>
-            <p>...Hello, World?</p>
-            <p>Hi! My name is Adham El Banhawy and I am a self-
-              <p>taught coder and a computer science college</p>
-              <p> student who really loves experimenting with</p>
-              <p> different languages and platforms. Coding and </p>
-              <p>design have been like a fun hobby to me for </p>
-              <p>years, but now I am focused on working on serious </p>
-              <p>projects, both personal and public.<span>|</span></p>
+            <p>Hello World! My name is Adham El Banhawy and I am a self-taught coder and a computer science student (decided to pursue a degree in 2017) who's been into web and software development for years now. I love experimenting with different OOP languages and frameworks. Coding and design have been a passionate hobby for me for a while, but now I am focused on contributing to big projects and building my own to enhance my portfolio.<span>|</span></p>
           </div>
         </div>
 
@@ -91,32 +85,20 @@
   
     <div class="container-fluid panel panel-default">
       <h1>Projects</h1>
-      <div class="row">
+      <div class="grid well" >
 
-         <div class="col-md-4">
-          <a href="http://codepen.io/Banhawy/pen/qqVNJX" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/portfolio-snapshot1.png" id="middle"></a>
-          <div id="center-buttons"><button id="center" type="button" class="btn btn-sm btn-success" data-toggle="collapse" data-target="#demo1">Online Portfolio</button></div>
-                <div id="demo1" class="collapse align well">
-                  <p>You might not realize it but you are currently viewing my first online portfolio. This is my portfolio webpage that I built myself using HTML5, Bootstrap, and jQuery. This is an ongoing project for me and it is updated and changed frequently as I learn new techniques and add content.</p>
-                </div>
+        <div class="grid-sizer"></div>
+
+        <div class="grid-item grid-item">
+          <a href="http://codepen.io/Banhawy/pen/qqVNJX" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/portfolio-snapshot1.png"></a>
         </div>
-        
-        <div class="col-md-4">
-          <a href="http://codepen.io/Banhawy/full/MbvxgW/" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/celeb-profile1.png" id="middle"></a>
-          <div id="center-buttons"><button id="center" type="button" class="btn btn-sm btn-success" data-toggle="collapse" data-target="#demo2">Tribute Page</button></div>
-                <div id="demo2" class="collapse align well">
-                  <p>This a tribute page to Dr. Ken. I built it from scratch using only HTML. It is pretty basic and I used it to try out different styling and structuring elements within the webpage.</p>
-                </div>
+        <div class="grid-item"><a href="http://codepen.io/Banhawy/full/MbvxgW/" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/celeb-profile1.png"></a>
         </div>
-        
-        
-        <div class="col-md-4">
-          <a href="http://codepen.io/Banhawy/full/rWZxMv/" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/%60quote-generator3.png" id="middle"></a>
-          <div id="center-buttons"><button id="center" type="button" class="btn btn-sm btn-success" data-toggle="collapse" data-target="#demo3">Quote Machine</button></div>
-                <div id="demo3" class="collapse align well">
-                  <p>In this project I built a random quote generator. Click the "Random Quote" button to get a quote from a world leader, as well as a picture (which links to the leader's Wikipedia page) and leader's age/years lived. I built my own JSON file which gave me the flexibility to add leaders, quotes, and pictures of my choosing and queried them in the page. You can also twwet a quote you like!</p>
-                </div>
-        </div> 
+        <div class="grid-item grid-item--height2">
+          <a href="http://codepen.io/Banhawy/full/rWZxMv/" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/%60quote-generator3.png"></a>
+        </div>
+
+
       </div>
     </div>
 </section> 
@@ -152,3 +134,31 @@
 
 </body>
 </html>
+
+<!--       <div class="row">
+
+   <div class="col-md-4">
+    <a href="http://codepen.io/Banhawy/pen/qqVNJX" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/portfolio-snapshot1.png" id="middle"></a>
+    <div id="center-buttons"><button id="center" type="button" class="btn btn-sm btn-success" data-toggle="collapse" data-target="#demo1">Online Portfolio</button></div>
+          <div id="demo1" class="collapse align well">
+            <p>You might not realize it but you are currently viewing my first online portfolio. This is my portfolio webpage that I built myself using HTML5, Bootstrap, and jQuery. This is an ongoing project for me and it is updated and changed frequently as I learn new techniques and add content.</p>
+          </div>
+  </div>
+  
+  <div class="col-md-4">
+    <a href="http://codepen.io/Banhawy/full/MbvxgW/" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/celeb-profile1.png" id="middle"></a>
+    <div id="center-buttons"><button id="center" type="button" class="btn btn-sm btn-success" data-toggle="collapse" data-target="#demo2">Tribute Page</button></div>
+          <div id="demo2" class="collapse align well">
+            <p>This a tribute page to Dr. Ken. I built it from scratch using only HTML. It is pretty basic and I used it to try out different styling and structuring elements within the webpage.</p>
+          </div>
+  </div>
+  
+  
+  <div class="col-md-4">
+    <a href="http://codepen.io/Banhawy/full/rWZxMv/" target="_blank"><img class="img-responsive" src="https://dl.dropboxusercontent.com/u/45064406/images/logos/%60quote-generator3.png" id="middle"></a>
+    <div id="center-buttons"><button id="center" type="button" class="btn btn-sm btn-success" data-toggle="collapse" data-target="#demo3">Quote Machine</button></div>
+          <div id="demo3" class="collapse align well">
+            <p>In this project I built a random quote generator. Click the "Random Quote" button to get a quote from a world leader, as well as a picture (which links to the leader's Wikipedia page) and leader's age/years lived. I built my own JSON file which gave me the flexibility to add leaders, quotes, and pictures of my choosing and queried them in the page. You can also twwet a quote you like!</p>
+          </div>
+  </div> 
+</div> -->

@@ -81,6 +81,7 @@ footer{
 
 .about {
   background: black;
+  width: 100%;
   padding-top: 10px;
   height: auto;
 }
@@ -89,16 +90,16 @@ footer{
   color: lime;
   font-family: "Courier";
   font-size: 1.09em;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 30em;
-  animation: type 4s steps(20, end);
+  width: 100%;
+  /* white-space: nowrap;
+  overflow: hidden; */
+  /* animation: type 4s steps(20, end); */
 }
 
 
 /* steps() takes first parameter as no. of steps*/
 
-.about p:nth-child(2) {
+/* .about p:nth-child(2) {
   animation: type3 8s steps(80, end);
 }
 
@@ -165,22 +166,55 @@ span {
   87% {
     width: 0
   }
-  /* It's essential to set the width to 0 at higher %s the more p elements you apply it to consecutavely */
+  It's essential to set the width to 0 at higher %s the more p elements you apply it to consecutavely
   100% {
     width: 100;
   }
-  /*Width should always be 100 at 100%*/
+  Width should always be 100 at 100%
 }
 
 @keyframes blink {
   to {
     opacity: .0;
   }
+} */
+
+span {
+  animation: blink 1s infinite;
 }
 
 ::selection {
   background: black;
 }
+
+.img{
+  width: 100%;
+}
+.grid {
+  
+  max-width: 100%;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  float: left;
+  width: initial;
+  height: initial;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* margin: 10px 10px 10px 10px; */
+}
+
+.grid-item--width2 { width: 40%; height: initial; }
+.grid-item--height2 { height: initial; }
 
 #about-me{
   padding-top: 120px;
