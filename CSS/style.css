@@ -91,6 +91,7 @@ footer{
   font-family: "Courier";
   font-size: 1.09em;
   width: 100%;
+  text-align: left;
   /* white-space: nowrap;
   overflow: hidden; */
   /* animation: type 4s steps(20, end); */
